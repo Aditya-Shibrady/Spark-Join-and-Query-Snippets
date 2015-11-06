@@ -1,0 +1,4 @@
+val input_File=sc.textFile("/yelpdatafall/review/review.csv")
+val values=input_File.map(_.split("\\^")).map(line=>(line(2),line(3).toFloat)).mapValues(p=>(p,1)).reduceByKey((p,q)=>
+(p._1+q._1, p._2+q._2))
+values.map(line=>(line._1,(line._2._1/line._2._2))).sortBy(_._1).sortBy(-_._2).take(10).foreach(println)

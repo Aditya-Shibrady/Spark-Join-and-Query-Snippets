@@ -1,0 +1,31 @@
+Q3A Output:
+
+(-6fMAgRynU3iL_ZbQV3eLw,(1915 W Arrow RteUpland, CA 91786,List(Home Services, Heating & Air Conditioning/HVAC),5.0))
+(-6fMAgRynU3iL_ZbQV3eLw,(1915 W Arrow RteUpland, CA 91786,List(Home Services, Heating & Air Conditioning/HVAC),5.0))
+(-7qJEs6xTssXME2itowdxA,(4705 16th Ave NEUniversity DistrictSeattle, WA 98105,List(Books, Mags, Music and Video, Shopping, Bookstores),5.0))
+(-7qJEs6xTssXME2itowdxA,(4705 16th Ave NEUniversity DistrictSeattle, WA 98105,List(Books, Mags, Music and Video, Shopping, Bookstores),5.0))
+(-7r5-GDmuXsgRhkBnN0nqA,(220 Russell StSte 100Hadley, MA 01035,List(Active Life, Gyms, Fitness & Instruction),5.0))
+(-7r5-GDmuXsgRhkBnN0nqA,(220 Russell StSte 100Hadley, MA 01035,List(Active Life, Gyms, Fitness & Instruction),5.0))
+(-H10Dd0OMVWL843ErsV6VA,(One Liberty Place1650 Market St, 36th FlMantuaPhiladelphia, PA 19103,List(Wedding Planning, Event Planning & Services, Party & Event Planning),5.0))
+(-H10Dd0OMVWL843ErsV6VA,(One Liberty Place1650 Market St, 36th FlMantuaPhiladelphia, PA 19103,List(Wedding Planning, Event Planning & Services, Party & Event Planning),5.0))
+(-J5wUuLJdr0s28InPxGkmw,(1821 Murray AveSquirrel HillPittsburgh, PA 15217,List(Optometrists, Health and Medical),5.0))
+(-J5wUuLJdr0s28InPxGkmw,(1821 Murray AveSquirrel HillPittsburgh, PA 15217,List(Optometrists, Health and Medical),5.0))
+
+
+
+
+
+Q3B Output:
+
+(-6fMAgRynU3iL_ZbQV3eLw,(5.0,1915 W Arrow RteUpland, CA 91786,List(Home Services, Heating & Air Conditioning/HVAC)))
+(-6fMAgRynU3iL_ZbQV3eLw,(5.0,1915 W Arrow RteUpland, CA 91786,List(Home Services, Heating & Air Conditioning/HVAC)))
+(-7qJEs6xTssXME2itowdxA,(5.0,4705 16th Ave NEUniversity DistrictSeattle, WA 98105,List(Books, Mags, Music and Video, Shopping, Bookstores)))
+(-7qJEs6xTssXME2itowdxA,(5.0,4705 16th Ave NEUniversity DistrictSeattle, WA 98105,List(Books, Mags, Music and Video, Shopping, Bookstores)))
+(-7r5-GDmuXsgRhkBnN0nqA,(5.0,220 Russell StSte 100Hadley, MA 01035,List(Active Life, Gyms, Fitness & Instruction)))
+(-7r5-GDmuXsgRhkBnN0nqA,(5.0,220 Russell StSte 100Hadley, MA 01035,List(Active Life, Gyms, Fitness & Instruction)))
+(-H10Dd0OMVWL843ErsV6VA,(5.0,One Liberty Place1650 Market St, 36th FlMantuaPhiladelphia, PA 19103,List(Wedding Planning, Event Planning & Services, Party & Event Planning)))
+(-H10Dd0OMVWL843ErsV6VA,(5.0,One Liberty Place1650 Market St, 36th FlMantuaPhiladelphia, PA 19103,List(Wedding Planning, Event Planning & Services, Party & Event Planning)))
+(-J5wUuLJdr0s28InPxGkmw,(5.0,1821 Murray AveSquirrel HillPittsburgh, PA 15217,List(Optometrists, Health and Medical)))
+(-J5wUuLJdr0s28InPxGkmw,(5.0,1821 Murray AveSquirrel HillPittsburgh, PA 15217,List(Optometrists, Health and Medical)))
+
+The time difference between the programs while running in spark RDD and when using Broadcast Variable is 0.19297

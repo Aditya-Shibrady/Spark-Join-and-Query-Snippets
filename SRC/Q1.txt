@@ -1,0 +1,4 @@
+val arg=readLine("Enter your address:")
+val input_File=sc.textFile("/yelpdatafall/business/business.csv")
+input_File.filter(line=>line.contains(arg.toString)).map(_.split("\\^")).map(line=>line(0)).collect.foreach(println)
+
